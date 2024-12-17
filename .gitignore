@@ -1,0 +1,30 @@
+*.pyc
+__pycache__/
+*.swp
+
+*/static/*/dist
+media/
+/static/
+fixtures/
+
+*.retry
+
+.env
+_env
+
+*.pdf
+
+*.sql
+
+# Local dev
+local_*.*
+
+#Ansible Check output
+check.yaml
+
+#Misc
+issa_schema.txt
+*.master
+
+#Database
+*.db
